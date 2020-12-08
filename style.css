@@ -1,0 +1,330 @@
+body {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #010202;
+}
+
+.menu ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  margin: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffca38;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu li a:hover, a:active {
+  color: #fd1f4a;
+}
+
+.login {
+  display: inline;
+  right: 10px;
+  position: absolute;
+  border: 2px solid #ffca38;
+  border-radius: 30px;
+  padding: 8px 22px;
+  text-decoration: none;
+}
+
+.textoprincipal {
+  color: white;
+  width: 50%;
+  height: 25%;
+  left: 100px;
+  top: 15%;
+  float: left;
+  position: absolute;
+  text-align: justify;
+}
+
+.textoprincipal h1 {
+  width: 100%;
+  font-size: 70px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.textoprincipal p {
+  color: #989898;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.fototaxi {
+  width: 50%;
+  float: right;
+}
+
+.fototaxi img {
+  width: 100%;
+}
+
+.textoregistro a {
+  text-decoration: none;
+  color: #fd1f4a;
+  text-transform: uppercase;
+}
+
+.icons ul {
+  display: block;
+  list-style-type: none;
+}
+
+.icons li {
+  float: left;
+  margin: 20px;
+}
+
+.icons li a {
+  text-decoration: none;
+  font-size: 80px;
+  color: #ffca38;
+}
+
+.textocontato {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 50%;
+  height: 25%;
+  top: 15%;
+  left: 100px;
+  float: left;
+  position: absolute;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.textocontato h1 {
+  letter-spacing: 5px;
+  color: #fd1f4a
+}
+
+.textocontato ul {
+  display: block;
+  list-style-type: none;
+}
+
+.textocontato li a {
+  text-decoration: none;
+  color: #ffca38;
+  font-size: 45px;
+}
+
+.textoquemsomos {
+  color: white;
+  width: 50%;
+  height: 25%;
+  top: 15%;
+  left: 100px;
+  float: left;
+  position: absolute;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.textoquemsomos h1 {
+  letter-spacing: 5px;
+  color: #ffca38;
+  font-size: 50px;
+}
+
+.textoquemsomos ul {
+  display: block;
+  list-style-type: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.textoquemsomos ul i {
+  color: #fd1f4a;
+}
+
+.textoquemsomos small {
+  color: #ffca38;
+  font-weight: bold;
+  margin: 80px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.formulario {
+  position: absolute;
+  width: 380px;
+  height: 480px;
+  border: 2px solid #ffca38;
+  border-radius: 20px;
+  top: 100px;
+  right: 450px;
+  overflow: hidden;
+}
+
+.bb {
+  position: relative;
+  width: 220px;
+  margin: 35px auto;
+  border-radius: 50px;
+  background: white;
+}
+
+.bb button {
+  padding: 10px 22px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.bb2 {
+  position: relative;
+  width: 270px;
+  margin: 35px auto;
+  border-radius: 50px;
+  background: white;
+}
+
+.bb2 button {
+  padding: 10px 22px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#mover {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: #fd1f4a;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+
+#mover2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 135px;
+  height: 100%;
+  background: #fd1f4a;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+
+.preencher {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+} 
+
+.campo {
+  left: 50px;
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.preencher button {
+  left: 55px;
+  position: relative;
+  top: 30px;
+  width: 50%;
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+  outline: none;
+  border: 1px solid #fd1f4a;
+  border-radius: 30px;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.preencher button a {
+  text-decoration: none;
+  color: white;
+}
+
+#login {
+  left: 10px;
+}
+
+#registrar {
+  left: 450px;
+}
+
+#passageira {
+  left: 10px;
+}
+
+#motorista {
+  left: 450px;
+}
+
+.loader {
+  border: 10px solid #ffca38;
+  border-top: 10px solid #fd1f4a;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  right: 550px;
+  top: 300px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.aviso {
+  display: block;
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}

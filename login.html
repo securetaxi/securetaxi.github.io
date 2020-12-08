@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Secure Taxi</title>
+    <meta name="viewport" content="width=1280, height=1024">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/749a0aa5b1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <u>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="login.html">Faça Parte da Equipe</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li class="login"><a href="login.html">Login</a></li>
+      </u>
+    </div>
+    <div class="formulario">
+      <div class="bb">
+        <div id="mover"></div>
+        <button type="button" onclick="login()">Login</button>
+        <button type="button" onclick="registrar()">Registrar</button>
+      </div>
+      <form id="login" class="preencher">
+        <input type="text" class="campo" placeholder="Digite seu email:" required>
+        <input type="text" class="campo" placeholder="Digite sua senha:" required>
+        <button type="submit" onclick="location.href='escolha.html';">Login</button>
+      </form>
+      <form id="registrar" class="preencher">
+        <input type="text" class="campo" placeholder="Digite seu nome:" required>
+        <input type="text" class="campo" placeholder="Digite seu cpf:" required>
+        <input type="text" class="campo" placeholder="Digite seu email:" required>
+        <input type="text" class="campo" placeholder="Digite sua senha:" required>
+        <button type="submit" onclick="location.href='escolha.html';">Registrar</button>
+      </form>
+    </div>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("registrar");
+      var z = document.getElementById("mover");
+      
+      function registrar(){
+        x.style.left = "-400px";
+        y.style.left = "10px";
+        z.style.left = "110px";
+      }
+      
+      function login(){
+        x.style.left = "10px";
+        y.style.left = "450px";
+        z.style.left = "0";
+      }
+      
+    </script>
+  </body> 
+</html>
